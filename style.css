@@ -1,9 +1,11 @@
-.title-font{
-  font-style:bold;
+
+footer{
+  display: block;
   font-family: Merriweather;
-  font-size: 40px;
-  color: rgb(10, 0, 27);
-  
+  text-transform: capitalize;
+  background-color: rgba(12, 12, 0, 0.589);
+  color: rgb(253, 246, 246);
+  text-align: center;
 }
 .leading-relaxed{
   text-align:justify;  
@@ -26,7 +28,6 @@
     padding: 10;
     height: auto;
     width: 100%;
-    color: cornsilk;
     background-color: #005c99;
     
 }
@@ -43,40 +44,34 @@
     text-transform: uppercase;
     font-style: bold,italic;
     font-family: Merriweather;
-    font-size: 50pt;
+    font-size: 50px;
     letter-spacing: 8px;
     
     
 }
 .navbar-text:hover{
-    color: rgb(15, 1, 1);
+    color: rgb(252, 249, 249);
 }
+
 #navi{
    
     background-color: rgb(43, 11, 160);
-    box-shadow: 0 1px 3px rgba(140, 132, 250, 0.493);
-    height: 42px;
+    box-shadow: 0 1px 3px rgb(1, 0, 7);
     z-index: 1;
     overflow: hidden;
     
+    
 }
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.nav-link{
+  color:rgb(255, 255, 255);
+  
 }
-
-.header li a{
-    text-transform: capitalize;
-    color: whitesmoke;
-    font-family: Merriweather;
-    font-style: bold,italic;
+/* repair  */
+.nav-link:hover{ 
+  color: silver;
+  background-color: rgb(25, 0, 117);
+  
 }
-
 .sticky {
   position: fixed;
   top: 0;
@@ -95,7 +90,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 10000px;
   position: relative;
   margin: auto;
 }
@@ -155,6 +150,7 @@
   to {opacity: 1}
 }
 
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
@@ -166,11 +162,11 @@ body{
   /* overflow: hidden;  */
   background-repeat:repeat;
 }
-/* html {
+html {
  
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-      scrollbar-width: none;  /* Firefox */
-  }
-  ::-webkit-scrollbar { 
-      display: none;  /* Safari and Chrome */
-  } */
+-ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

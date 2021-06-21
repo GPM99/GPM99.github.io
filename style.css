@@ -22,7 +22,14 @@ footer{
   font-size: 18px;
 
 }
-
+.btn-close{
+  background-color: rgba(12, 12, 0, 0.589);
+  color: rgba(7, 91, 201, 0.048);
+}
+.close{
+  background-color: rgba(12, 12, 0, 0.589);
+  color: rgba(7, 91, 201, 0.048);
+}
 
 .header{
     padding: 10;
